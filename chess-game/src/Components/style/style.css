@@ -1,0 +1,47 @@
+.square {
+    height:100px;
+    width:100px;
+}
+.letters {
+    height:98px;
+    width:50px;
+    background-color:rgb(252, 194, 161);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.numbers {
+    width:98px;
+    height:50px;
+    background-color:rgb(252, 194, 161);
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.smallBox {
+    height:50px;
+    width:50px;
+    background-color: black;
+    border: 1px solid black;
+    
+}
+.light {
+    background-color: rgb(175, 231, 222);
+}
+.dark {
+    background-color: rgb(129, 129, 92);
+}
+
+.boardContainer {
+    display:flex;
+}
+
+.centerBoard {
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
